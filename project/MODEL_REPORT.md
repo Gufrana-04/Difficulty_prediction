@@ -44,7 +44,7 @@ The low variance across folds confirms the model generalizes well and isn't over
 
 ## Feature Engineering
 
-14 features were engineered from the raw 8 columns:
+17 features were engineered from the raw 8 columns:
 
 | Feature             | Description                                          |
 |---------------------|------------------------------------------------------|
