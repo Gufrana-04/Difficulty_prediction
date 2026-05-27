@@ -49,15 +49,15 @@ The low variance across folds confirms the model generalizes well and isn't over
 | Feature             | Description                                          |
 |---------------------|------------------------------------------------------|
 | `skill_level`        | Numeric encoding of student archetype (1–4)          |
-| `difficulty_tier`    | Topic difficulty derived from level_id keywords (1–3)|
-| `avg_score`          | Student's mean score across all past sessions        |
-| `score_std`          | Variance in scores — measures consistency            |
+| `difficulty_tier`  \Question difficulty tier\  | Topic difficulty derived from level_id keywords (1–3)|
+| `avg_score` \Student ability score\         | Student's mean score across all past sessions        |
+| `score_std`  \Learning consistency\        | Variance in scores — measures consistency            |
 | `avg_time`           | Average time spent per session                       |
-| `time_std`           | Variance in study time                               |
+| `time_std` \Learning consistency\          | Variance in study time                               |
 | `attempt_avg`        | Average attempts per assessment                      |
 | `pass_rate`          | Historical pass rate for the student                 |
-| `learning_velocity`  | Average score improvement over time                  |
-| `days_since_last`    | Days since the student's most recent session         |
+| `learning_velocity` \Learning velocity\ | Average score improvement over time                  |
+| `days_since_last` \Time since last session\   | Days since the student's most recent session         |
 | `difficulty_gap`     | Skill level minus difficulty tier                    |
 | `time_per_attempt`   | Time spent divided by number of attempts             |
 | `is_struggling`      | Flag if historical pass rate < 50%                   |
