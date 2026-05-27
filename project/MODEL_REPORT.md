@@ -87,6 +87,10 @@ Based on absolute logistic regression coefficients:
 
 ---
 
+## Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+---
 
 ## Validation Strategy
 
